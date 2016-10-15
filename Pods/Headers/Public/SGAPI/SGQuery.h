@@ -1,0 +1,1 @@
+../../../SGAPI/SGAPI/SGQuery.h

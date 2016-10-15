@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08618E5D5E056ECF4311AF0D /* libPods-SeatGeekClone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DFC520A834CAE0B705EABA /* libPods-SeatGeekClone.a */; };
+		668F91851DB29C9C0023F924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F91841DB29C9C0023F924 /* main.m */; };
+		668F91881DB29C9C0023F924 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F91871DB29C9C0023F924 /* AppDelegate.m */; };
+		668F918E1DB29C9C0023F924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668F918C1DB29C9C0023F924 /* Main.storyboard */; };
+		668F91901DB29C9C0023F924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668F918F1DB29C9C0023F924 /* Assets.xcassets */; };
+		668F91931DB29C9C0023F924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668F91911DB29C9C0023F924 /* LaunchScreen.storyboard */; };
+		668F919E1DB29C9D0023F924 /* SeatGeekCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F919D1DB29C9D0023F924 /* SeatGeekCloneTests.m */; };
+		668F91AF1DB29D9B0023F924 /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F91AE1DB29D9B0023F924 /* EventTableViewCell.m */; };
+		668F91B21DB29DB50023F924 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668F91B11DB29DB50023F924 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		668F919A1DB29C9C0023F924 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 668F91781DB29C9C0023F924 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 668F917F1DB29C9C0023F924;
+			remoteInfo = SeatGeekClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		290EFE90B3FBB37DB8B96D7A /* Pods-SeatGeekClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatGeekClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatGeekClone/Pods-SeatGeekClone.release.xcconfig"; sourceTree = "<group>"; };
+		668F91801DB29C9C0023F924 /* SeatGeekClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatGeekClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		668F91841DB29C9C0023F924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		668F91861DB29C9C0023F924 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		668F91871DB29C9C0023F924 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		668F918D1DB29C9C0023F924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		668F918F1DB29C9C0023F924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		668F91921DB29C9C0023F924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		668F91941DB29C9C0023F924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668F91991DB29C9C0023F924 /* SeatGeekCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeatGeekCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		668F919D1DB29C9D0023F924 /* SeatGeekCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeatGeekCloneTests.m; sourceTree = "<group>"; };
+		668F919F1DB29C9D0023F924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		668F91AD1DB29D9B0023F924 /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		668F91AE1DB29D9B0023F924 /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
+		668F91B01DB29DB50023F924 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		668F91B11DB29DB50023F924 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		955C18EFD034B5FAC9EED897 /* Pods-SeatGeekClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatGeekClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeatGeekClone/Pods-SeatGeekClone.debug.xcconfig"; sourceTree = "<group>"; };
+		E8DFC520A834CAE0B705EABA /* libPods-SeatGeekClone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeatGeekClone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		668F917D1DB29C9C0023F924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08618E5D5E056ECF4311AF0D /* libPods-SeatGeekClone.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668F91961DB29C9C0023F924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668F91771DB29C9C0023F924 = {
+			isa = PBXGroup;
+			children = (
+				668F91821DB29C9C0023F924 /* SeatGeekClone */,
+				668F919C1DB29C9D0023F924 /* SeatGeekCloneTests */,
+				668F91811DB29C9C0023F924 /* Products */,
+				A30768159214B8456A1D56D2 /* Pods */,
+				6A169C27A0957BA729D521BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		668F91811DB29C9C0023F924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				668F91801DB29C9C0023F924 /* SeatGeekClone.app */,
+				668F91991DB29C9C0023F924 /* SeatGeekCloneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		668F91821DB29C9C0023F924 /* SeatGeekClone */ = {
+			isa = PBXGroup;
+			children = (
+				668F91AB1DB29D400023F924 /* Extensions */,
+				668F91AA1DB29D390023F924 /* View Controllers */,
+				668F91A91DB29D300023F924 /* Models */,
+				668F91A81DB29D260023F924 /* Views */,
+				668F91831DB29C9C0023F924 /* Supporting Files */,
+			);
+			path = SeatGeekClone;
+			sourceTree = "<group>";
+		};
+		668F91831DB29C9C0023F924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				668F91861DB29C9C0023F924 /* AppDelegate.h */,
+				668F91871DB29C9C0023F924 /* AppDelegate.m */,
+				668F918F1DB29C9C0023F924 /* Assets.xcassets */,
+				668F91941DB29C9C0023F924 /* Info.plist */,
+				668F91911DB29C9C0023F924 /* LaunchScreen.storyboard */,
+				668F91841DB29C9C0023F924 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		668F919C1DB29C9D0023F924 /* SeatGeekCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				668F919D1DB29C9D0023F924 /* SeatGeekCloneTests.m */,
+				668F919F1DB29C9D0023F924 /* Info.plist */,
+			);
+			path = SeatGeekCloneTests;
+			sourceTree = "<group>";
+		};
+		668F91A81DB29D260023F924 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				668F91AC1DB29D850023F924 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		668F91A91DB29D300023F924 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		668F91AA1DB29D390023F924 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				668F918C1DB29C9C0023F924 /* Main.storyboard */,
+				668F91B01DB29DB50023F924 /* ViewController.h */,
+				668F91B11DB29DB50023F924 /* ViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		668F91AB1DB29D400023F924 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		668F91AC1DB29D850023F924 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				668F91AD1DB29D9B0023F924 /* EventTableViewCell.h */,
+				668F91AE1DB29D9B0023F924 /* EventTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		6A169C27A0957BA729D521BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8DFC520A834CAE0B705EABA /* libPods-SeatGeekClone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A30768159214B8456A1D56D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				955C18EFD034B5FAC9EED897 /* Pods-SeatGeekClone.debug.xcconfig */,
+				290EFE90B3FBB37DB8B96D7A /* Pods-SeatGeekClone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		668F917F1DB29C9C0023F924 /* SeatGeekClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668F91A21DB29C9D0023F924 /* Build configuration list for PBXNativeTarget "SeatGeekClone" */;
+			buildPhases = (
+				05F64CD09094AFB62070FC1C /* [CP] Check Pods Manifest.lock */,
+				668F917C1DB29C9C0023F924 /* Sources */,
+				668F917D1DB29C9C0023F924 /* Frameworks */,
+				668F917E1DB29C9C0023F924 /* Resources */,
+				CF34D4FD4C5350856106BA86 /* [CP] Embed Pods Frameworks */,
+				40F2C6E3F67874495CA85478 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeatGeekClone;
+			productName = SeatGeekClone;
+			productReference = 668F91801DB29C9C0023F924 /* SeatGeekClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		668F91981DB29C9C0023F924 /* SeatGeekCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668F91A51DB29C9D0023F924 /* Build configuration list for PBXNativeTarget "SeatGeekCloneTests" */;
+			buildPhases = (
+				668F91951DB29C9C0023F924 /* Sources */,
+				668F91961DB29C9C0023F924 /* Frameworks */,
+				668F91971DB29C9C0023F924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				668F919B1DB29C9C0023F924 /* PBXTargetDependency */,
+			);
+			name = SeatGeekCloneTests;
+			productName = SeatGeekCloneTests;
+			productReference = 668F91991DB29C9C0023F924 /* SeatGeekCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		668F91781DB29C9C0023F924 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = atecle;
+				TargetAttributes = {
+					668F917F1DB29C9C0023F924 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3GR96D7Z4R;
+						ProvisioningStyle = Automatic;
+					};
+					668F91981DB29C9C0023F924 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3GR96D7Z4R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 668F917F1DB29C9C0023F924;
+					};
+				};
+			};
+			buildConfigurationList = 668F917B1DB29C9C0023F924 /* Build configuration list for PBXProject "SeatGeekClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 668F91771DB29C9C0023F924;
+			productRefGroup = 668F91811DB29C9C0023F924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				668F917F1DB29C9C0023F924 /* SeatGeekClone */,
+				668F91981DB29C9C0023F924 /* SeatGeekCloneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		668F917E1DB29C9C0023F924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668F91931DB29C9C0023F924 /* LaunchScreen.storyboard in Resources */,
+				668F91901DB29C9C0023F924 /* Assets.xcassets in Resources */,
+				668F918E1DB29C9C0023F924 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668F91971DB29C9C0023F924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05F64CD09094AFB62070FC1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40F2C6E3F67874495CA85478 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeatGeekClone/Pods-SeatGeekClone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF34D4FD4C5350856106BA86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeatGeekClone/Pods-SeatGeekClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		668F917C1DB29C9C0023F924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668F91AF1DB29D9B0023F924 /* EventTableViewCell.m in Sources */,
+				668F91881DB29C9C0023F924 /* AppDelegate.m in Sources */,
+				668F91B21DB29DB50023F924 /* ViewController.m in Sources */,
+				668F91851DB29C9C0023F924 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668F91951DB29C9C0023F924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668F919E1DB29C9D0023F924 /* SeatGeekCloneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		668F919B1DB29C9C0023F924 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 668F917F1DB29C9C0023F924 /* SeatGeekClone */;
+			targetProxy = 668F919A1DB29C9C0023F924 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		668F918C1DB29C9C0023F924 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668F918D1DB29C9C0023F924 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		668F91911DB29C9C0023F924 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				668F91921DB29C9C0023F924 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		668F91A01DB29C9D0023F924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		668F91A11DB29C9D0023F924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		668F91A31DB29C9D0023F924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 955C18EFD034B5FAC9EED897 /* Pods-SeatGeekClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3GR96D7Z4R;
+				INFOPLIST_FILE = SeatGeekClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atecle.SeatGeekClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		668F91A41DB29C9D0023F924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290EFE90B3FBB37DB8B96D7A /* Pods-SeatGeekClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3GR96D7Z4R;
+				INFOPLIST_FILE = SeatGeekClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atecle.SeatGeekClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		668F91A61DB29C9D0023F924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3GR96D7Z4R;
+				INFOPLIST_FILE = SeatGeekCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atecle.SeatGeekCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeatGeekClone.app/SeatGeekClone";
+			};
+			name = Debug;
+		};
+		668F91A71DB29C9D0023F924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3GR96D7Z4R;
+				INFOPLIST_FILE = SeatGeekCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atecle.SeatGeekCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeatGeekClone.app/SeatGeekClone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		668F917B1DB29C9C0023F924 /* Build configuration list for PBXProject "SeatGeekClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668F91A01DB29C9D0023F924 /* Debug */,
+				668F91A11DB29C9D0023F924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668F91A21DB29C9D0023F924 /* Build configuration list for PBXNativeTarget "SeatGeekClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668F91A31DB29C9D0023F924 /* Debug */,
+				668F91A41DB29C9D0023F924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668F91A51DB29C9D0023F924 /* Build configuration list for PBXNativeTarget "SeatGeekCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				668F91A61DB29C9D0023F924 /* Debug */,
+				668F91A71DB29C9D0023F924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 668F91781DB29C9C0023F924 /* Project object */;
+}

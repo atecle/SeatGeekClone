@@ -1,0 +1,3 @@
+target 'SeatGeekClone'
+
+pod 'SGAPI'

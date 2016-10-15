@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" searchBarStyle="prominent" placeholder="Search by performer, event, or venue" translatesAutoresizingMaskIntoConstraints="NO" id="Shg-fG-vBU">
+                                <color key="barTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C43-tr-KgE">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oG0-yK-CVp">
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="C43-tr-KgE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8tL-qv-hLG"/>
+                            <constraint firstAttribute="trailing" secondItem="C43-tr-KgE" secondAttribute="trailing" id="KLW-mc-sEV"/>
+                            <constraint firstAttribute="trailing" secondItem="Shg-fG-vBU" secondAttribute="trailing" id="NUL-jY-qJz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="C43-tr-KgE" secondAttribute="bottom" id="RWg-IH-SPc"/>
+                            <constraint firstItem="oG0-yK-CVp" firstAttribute="trailing" secondItem="Shg-fG-vBU" secondAttribute="trailing" id="UKN-vq-HT2"/>
+                            <constraint firstItem="oG0-yK-CVp" firstAttribute="leading" secondItem="Shg-fG-vBU" secondAttribute="leading" id="YDd-DW-lG4"/>
+                            <constraint firstItem="C43-tr-KgE" firstAttribute="top" secondItem="oG0-yK-CVp" secondAttribute="bottom" id="Ye0-CN-2zK"/>
+                            <constraint firstItem="oG0-yK-CVp" firstAttribute="height" secondItem="Shg-fG-vBU" secondAttribute="height" id="ZWS-Yh-tdK"/>
+                            <constraint firstItem="Shg-fG-vBU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="cEe-pp-Hzz"/>
+                            <constraint firstItem="Shg-fG-vBU" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="f1J-Bk-wYk"/>
+                            <constraint firstItem="Shg-fG-vBU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="j8e-Yq-A9Z"/>
+                            <constraint firstItem="oG0-yK-CVp" firstAttribute="top" secondItem="Shg-fG-vBU" secondAttribute="bottom" id="lUy-dn-kGX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="Shg-fG-vBU" id="VGJ-7w-zrZ"/>
+                        <outlet property="tableView" destination="C43-tr-KgE" id="rYj-Id-YOs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
